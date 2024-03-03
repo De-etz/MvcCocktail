@@ -1,0 +1,25 @@
+Cocktail App...
+
+Info:
+- ID
+- Name
+- Ingredient list
+- Main spirits
+- Rating
+- Shaken or stirred
+- Tools required
+- Variations
+
+Uses:
+- Finding cocktails for certain ingredients (liquor specifically)
+- Sorting by rating
+- 
+
+Challenges faced:
+- Changing schema/renaming tables
+
+3/2/24
+- Created project and database
+- Added Id, Name, Ingredients string, Rating to app and filled some data with it
+- Added Strength to schema
+- TODO: Hide unknown values for rating and strength
