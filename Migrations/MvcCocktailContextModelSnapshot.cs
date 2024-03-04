@@ -43,6 +43,25 @@ namespace MvcCocktail.Migrations
 
                     b.ToTable("Cocktails");
                 });
+
+            modelBuilder.Entity("MvcCocktail.Models.Ingredient", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Quantity")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Ingredients");
+                });
 #pragma warning restore 612, 618
         }
     }

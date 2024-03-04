@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace MvcCocktail.Migrations.MvcIngredient
+namespace MvcCocktail.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class RemoveIngredientContext : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
