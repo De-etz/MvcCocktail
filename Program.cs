@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MvcCocktail.Data;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<MvcIngredientContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("MvcIngredientContext") ?? throw new InvalidOperationException("Connection string 'MvcIngredientContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

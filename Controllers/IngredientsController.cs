@@ -12,9 +12,9 @@ namespace MvcCocktail.Controllers
 {
     public class IngredientsController : Controller
     {
-        private readonly MvcIngredientContext _context;
+        private readonly MvcCocktailContext _context;
 
-        public IngredientsController(MvcIngredientContext context)
+        public IngredientsController(MvcCocktailContext context)
         {
             _context = context;
         }
