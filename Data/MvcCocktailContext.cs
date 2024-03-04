@@ -14,6 +14,8 @@ namespace MvcCocktail.Data
         {
         }
 
-        public DbSet<MvcCocktail.Models.Cocktail> Cocktails { get; set; } = default!;
+        // Tables
+        public DbSet<Cocktail> Cocktails { get; set; } = default!;
+        public DbSet<Ingredient> Ingredients { get; set; } = default!;
     }
 }
