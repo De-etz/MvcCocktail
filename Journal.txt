@@ -2,7 +2,7 @@ Cocktail App...
 
 dotnet aspnet-codegenerator controller -name ______Controller -m _____ -dc MvcCocktail.Data.MvcCocktailContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
 
-dotnet aspnet-codegenerator controller -name AlcoholController -m Alcohol -dc MvcCocktail.Data.MvcCocktailContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
+dotnet aspnet-codegenerator controller -name CocktailController -m Cocktail -dc MvcCocktail.Data.MvcCocktailContext --relativeFolderPath Controllers/tmp --useDefaultLayout --referenceScriptLibraries --databaseProvider sqlite
 
 
 Info:

@@ -11,6 +11,6 @@ public class Cocktail
     [Range(1, 3)]
     public int? Strength { get; set; }
     public bool Shaken { get; set; }
-    // public 
     public string? Ingredients { get; set; }
+    public List<Ingredient> IngredientList { get; set; } = [];
 }
