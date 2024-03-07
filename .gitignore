@@ -16,3 +16,4 @@ TestResults
 *.db
 *.db-shm
 *.db-wal
+*\Migrations*
