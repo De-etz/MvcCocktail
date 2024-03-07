@@ -54,7 +54,7 @@ namespace MvcCocktail.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Type,Id,Name,Quantity")] Liquor liquor)
+        public async Task<IActionResult> Create([Bind("LiquorType,Id,Name,Quantity")] Liquor liquor)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace MvcCocktail.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Type,Id,Name,Quantity")] Liquor liquor)
+        public async Task<IActionResult> Edit(int id, [Bind("LiquorType,Id,Name,Quantity")] Liquor liquor)
         {
             if (id != liquor.Id)
             {
