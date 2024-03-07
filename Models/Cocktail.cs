@@ -5,7 +5,7 @@ namespace MvcCocktail.Models;
 public class Cocktail
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public required string Name { get; set; }
     [Range(1, 5)]
     public int? Rating { get; set; }
     [Range(1, 3)]
